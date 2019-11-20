@@ -1,0 +1,220 @@
+body {
+    margin-top:0;
+	padding:0;
+    
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+		
+		
+		
+		
+     }
+
+.wrapper {
+ width: 1000;
+ height:1465;
+ margin: 0 auto;
+ background-color: #fff;
+            }	 
+	 
+#Header {
+ /*outline:1px solid #cc0000;*/
+ width: 1000px;
+ height: 195px;
+ background: /*linear-gradient(-45deg, #dfbd9a, #aa7281, #102158);*/  url(/images/Head.png) 100% 100%;
+ /*background-size: cover;
+ opacity: 0.5;*/
+ margin-bottom: 10px;
+}
+
+#Menu {
+ /*outline:1px solid #cc0000;*/
+ display: block;
+ margin:0 auto;
+ width: 900px;
+ height: 60px;                       
+}
+
+#MF {
+ width: 200;
+ height: 60px;
+ float: left;
+ background: #53BFE2;
+ margin-left: 20px;
+}
+
+#MF a {
+ padding-top:17;
+ text-align:  center;
+ display:block;
+ font-size:20px;
+ text-decoration: none;
+ color: #174B5C;
+}
+
+.LampLogo {
+ float: left;
+ margin-left: 130px;
+}
+
+.TextLogo {
+ padding-top: 15px;
+ padding-left: 150px;
+ font-size: 20;
+ font-family: 'Air';
+ color: #fff;
+ margin-bottom: 4px;
+}
+
+/*АВТОРИЗАЦИЯ*/
+.Join {
+ display: block;
+ margin-left: 350px;
+ width: 600px;
+ height: 100px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.h2V {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-left: 15px;
+  padding-top: 17px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  float: left;
+}
+
+.hPASS {
+ color: #fff;
+ display: block;
+ font-size: 20px;
+ text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+ text-decoration: none;
+ margin-left: 220px;
+ padding-top: 67px;
+ 
+}
+
+Form.Auto {
+  margin: 45px auto;
+  
+  transform-style: preserve-3d;
+  width: 538px; 
+}
+
+.back-visible .front-sign-in {
+  transform: rotateX(180deg);
+}
+.back-visible .back-sign-up {
+  transform: rotateX(0deg);
+}
+
+.front-sign-in, .back-sign-up {
+  background-color: rgba(245, 246, 247, 0.9);
+  backface-visibility: hidden;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.65), inset 0 1px white, inset 0 0 1px white;
+  -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.65), inset 0 1px white, inset 0 0 1px white;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.65), inset 0 1px white, inset 0 0 1px white;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  height: 50px;
+  left: 4px;
+  padding-top: 4px;
+  position: absolute;
+  top: 10px;
+  width: 415px;
+  -webkit-transition: -webkit-transform 0.6s;
+  -moz-transition: -moz-transform 0.6s;
+  -o-transition: -o-transform 0.6s;
+  transition: transform 0.6s;
+
+}
+
+.back-sign-up {
+  transform: rotateX(180deg);
+}
+
+input[type="text"], input[type="password"] {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  background-color: #f5f6f7;
+  -webkit-box-shadow: 0 1px white, inset 0 2px 2px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px white, inset 0 2px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px white, inset 0 2px 2px rgba(0, 0, 0, 0.1);
+  border: 1px solid #b1b3b8;
+  font-size: 18px;
+  height: 42px; 
+  margin-left: 12px;
+  padding-left: 12px;
+  width: 200px;
+  margin-left: 3px;
+
+}
+input[type="text"]:focus, input[type="password"]:focus {
+  outline: none;
+}
+
+input[type="submit"] {
+  -webkit-border-radius: 0 4px 4px 0;
+  -moz-border-radius: 0 4px 4px 0;
+  -ms-border-radius: 0 4px 4px 0;
+  -o-border-radius: 0 4px 4px 0;
+  border-radius: 0 4px 4px 0;
+  background-color: #f60;
+  border: 0;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.45);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.45);
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  height: 43px;
+  padding: 0 12px;
+  position: absolute;
+  text-transform: uppercase;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.54);
+  z-index: -1;
+  margin-left: 0px;
+  padding-left: 14px;
+
+}
+
+.signin-submit {
+  right: -85px;
+}
+
+.signup-submit {
+  right: -150px;
+}
+
+.signup-submit:hover, .signin-submit:hover {text-shadow: 0 0 1px #fff;}
+
+/*!АВТОРИЗАЦИЯ*/
+
+@font-face {
+    font-family: 'Air';
+    src: url(/Fonts/airborne.ttf); 
+   }
+
+.Footer {
+ width: 170px;
+ height: 40px;
+ background: #BBD8E2;
+ margin:10px auto 5px;
+}   

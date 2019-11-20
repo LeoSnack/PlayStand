@@ -1,0 +1,72 @@
+body {
+    margin-top:0;
+	padding:0;	top:0;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+     }
+.wrapper {
+ width: 1000px;
+ height: 600px;
+ margin: 0 auto;
+ background-color: #fff;
+            }	 
+.Header {
+ /*outline:1px solid #cc0000;*/
+ width: 1000px;
+ height: 195px;
+ background: /*linear-gradient(-45deg, #dfbd9a, #aa7281, #102158);*/  url(/images/Head.png) 100% 100%;
+ /*background-size: cover;
+ opacity: 0.5;*/
+ margin-bottom: 10px;
+}
+.Menu {
+ /*outline:1px solid #cc0000;*/
+ display: block;
+ margin:0 auto;
+ width: 900px;
+ height: 60px;                        margin-bottom: 20px;
+}
+
+#MF {
+ width: 200;
+ height: 60px;
+ float: left;
+ background: #53BFE2;
+ margin-left: 20px;
+}
+
+#MF a {
+ padding-top:17;
+ text-align:  center;
+ display:block;
+ font-size:20px;
+ text-decoration: none;
+ color: #174B5C;
+}
+
+.LampLogo {
+ float: left;
+ margin-left: 130px;
+}
+
+.TextLogo {
+ padding-top: 15px;
+ padding-left: 150px;
+ font-size: 20;
+ font-family: 'Air';
+ color: #fff;
+ margin-bottom: 4px;
+}
+
+/*АВТОРИЗАЦИЯ*/
+.Join { display: block; margin-left: 350px; width: 600px; height: 100px; position:relative;}* {  box-sizing: border-box;}.h2V {  color: #fff;  display: block;  font-size: 20px;  padding-top: 110px;  margin-left: 53px;  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);  text-decoration: none;  float: left;}.hPASS { color: #fff; display: block; font-size: 20px; text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); text-decoration: none; margin-left: 253px; padding-top: 110px;}.Auto {  margin: 45px auto;  width: 538px;  position: absolute;  padding-left: 30px;  transform-style: preserve-3d;  top: 0px;  left: 0px;}.front-sign-in, .back-sign-up {  background-color: rgba(245, 246, 247, 0.9);  backface-visibility: hidden;  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.65), inset 0 1px white, inset 0 0 1px white;  -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.65), inset 0 1px white, inset 0 0 1px white;  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.65), inset 0 1px white, inset 0 0 1px white;  -webkit-border-radius: 4px;  -moz-border-radius: 4px;  -ms-border-radius: 4px;  -o-border-radius: 4px;  border-radius: 4px;  height: 50px;  position: absolute;  width: 415px;  -webkit-transition: -webkit-transform 0.6s;  -moz-transition: -moz-transform 0.6s;  -o-transition: -o-transform 0.6s;  transition: transform 0.6s;  padding-top: 4px;  padding-left: 4px;  margin-left: 12px;  margin-top: 10px;}input[type="text"], input[type="password"] {  -webkit-border-radius: 4px;  -moz-border-radius: 4px;  -ms-border-radius: 4px;  -o-border-radius: 4px;  border-radius: 4px;  background-color: #f5f6f7;  -webkit-box-shadow: 0 1px white, inset 0 2px 2px rgba(0, 0, 0, 0.1);  -moz-box-shadow: 0 1px white, inset 0 2px 2px rgba(0, 0, 0, 0.1);  box-shadow: 0 1px white, inset 0 2px 2px rgba(0, 0, 0, 0.1);  border: 1px solid #b1b3b8;  font-size: 18px;  height: 42px;   width: 200px;  padding-left: 5px;}input[type="text"]:focus, input[type="password"]:focus {  outline: none;}input[name="signin-submit"], input[name="signup-submit"] {  -webkit-border-radius: 0 4px 4px 0;  -moz-border-radius: 0 4px 4px 0;  -ms-border-radius: 0 4px 4px 0;  -o-border-radius: 0 4px 4px 0;  border-radius: 0 4px 4px 0;  background-color: #f60;  border: 0px;  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.45);  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.45);  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.45);  color: #fff;  cursor: pointer;  font-size: 16px;  font-weight: bold;  height: 43px;  text-transform: uppercase;  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.54);  position: absolute;}.signin-submit {  right: -71px;}.signup-submit {  right: -135px;}.signup-submit:hover, .signin-submit:hover {text-shadow: 0 0 1px #fff;}#registration { display: none;}#login { display: block;}
+/*!АВТОРИЗАЦИЯ*/
+/*Контент*/.Content { /*outline:1px solid #cc0000;*/ width: 1000px;     height: 400px; }.GI { border-radius: 10px; width: 270px;     height: 160px; float: left; margin-left: 20px; margin-top: 5px; background-color: #F0F0F0; text-align: center; margin-left: 48px; padding-top: 7px; margin-bottom: 40px;}  .GI > a  { text-decoration: none; color: #FFFFFF; font-size: 20px; font-family: 'Air'; }.GI > img { border-radius: 10px; width: 270px;     height: 160px; margin-top: 0px; padding-top: 0px; }.AboutI { margin-left: 20px;}.TuckUp  { background: #F0F0F0; font-size: 15px; border: 4px solid #FF6600;;}.AboutI { font-size: 26px; color: #364B5C; font-family: 'agilis'; line-height: 1.2;}.PlayG { font-weight: bold;}PlayG { font-weight: bold;}.GoGT { color: #fff; font-size: 16px; font-weight: bold; height: 24px; background: #FF6600; border: none;  border-radius: 20px;}input[type="submit"]:focus {  outline: none;}select:focus {  outline: none;}.ContentT { width: 1000px;     height: 550px;}.OsT {    border: 1px solid #ECEDEE;    margin: 10px 0;    width: 100%;	}.OsT th {    background: #B5B5B5;    border-right: 1px solid #ECEDEE;    color: #000000;     font-size: 17px;    padding: 5px;     text-align: center;}.OsT td:nth-child(1) {    text-align: left;}.OsT td {    border-bottom: 1px solid #D5D5D5;     border-right: 1px solid #D5D5D5;    font-size: 14px;    padding: 4px;     vertical-align: middle;     text-align: center; }/*!Контент*/  /*Подвал*/
+.Footer {
+ width: 1000px;
+ height: 100px;
+ background: #7D7D7D;
+ margin:10px auto 5px;
+}   .FText { display:block; margin-left: 20px; padding-top: 5px; font-size: 21px; font-family: 'FT'; color: #F0F0F0; float: left;}.Contacts { /*outline:1px solid #cc0000;*/ display: block; padding-left: 600px; font-size: 16px; padding-top: 12px; }.ConT { display: block; font-family: 'Air'; color: #F0F0F0; margin-bottom: 5px;}.ConTI { display: block; color: #93DDF3; padding-left: 3px; margin-bottom: 5px;}.ConTI > a { text-decoration: none; color: #93DDF3;}/*!Подвал*/@font-face {    font-family: 'Air';    src: url(/Fonts/airborne.ttf);    }   @font-face {    font-family: 'FT';    src: url(/Fonts/FT.ttf);    }  @font-face {    font-family: 'agilis';    src: url(/Fonts/agilis.ttf);    }  
